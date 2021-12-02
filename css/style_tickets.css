@@ -1,0 +1,168 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #343a40;
+    height: 3rem;    
+}
+
+.title {
+    color: whitesmoke;
+    font-size: larger;
+    font-weight: 500;
+    float: left;
+    text-indent: 100px;
+}
+
+nav span {
+    margin: 10px;
+}
+
+main {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.links {
+    color: whitesmoke;
+    width: 55%;
+}
+
+.grey {
+    color: rgb(165, 165, 165);
+}
+
+.green {
+    color: #6ab53e;
+    text-decoration: none;
+}
+
+.discount {
+    display: flex;
+    justify-content: space-between;
+}
+
+.student, .trainee, .junior {
+    margin-top: 20px;
+    width: 32%;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.student {
+    border-color: #5facff;
+}
+
+.trainee {
+    border-color: #25a7bc;
+}
+
+.junior {
+    border-color: #f5ca4a;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.text {
+    position: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.text p, h1 {
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form *{
+    border-radius: 5px;
+    height: 2rem;
+    margin-bottom: 20px;
+}
+
+.tickets {
+    display: block;
+}
+
+.email, .total {
+    width: 100%;
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    color: #0b67b5;
+    background-color: #cce5ff;
+    height: 4rem;
+    text-indent: 20px;
+    font-weight: 600;
+    font-size: 17px; 
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.formItem {
+    width: 48%;
+    font-size: inherit;
+}
+
+label, select {
+    height: inherit;
+    width: 49%;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #96c93e;
+    border-color: #96c93e;
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: inherit;
+    text-align: center;
+    width: 49%;
+    padding: 0.6em 0;
+    height: 1.5em;
+}
+
+footer {
+    background: linear-gradient(to left, #1d4c66 0%, #1d3a4a 100%);
+    color: whitesmoke;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+    margin: 0 auto;
+}
+
+footer div span {
+    width: min-content;
+    text-align: center;
+}

@@ -1,0 +1,81 @@
+nav img {
+    width: 100%;
+}
+
+.carousel-caption {
+    right: 10%;
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: auto;   
+}
+
+.text {
+    max-width: 32rem;
+}
+
+.carousel-inner img {
+    opacity: 0.5;
+}
+
+.carousel-inner {
+    background-color: black;
+}
+
+.card-text{
+    text-align: left;
+}
+
+#isolatedText {
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    margin-top: 8px;
+}
+
+h3, .isolatedText  {
+    text-align: center;
+    margin: 10px;
+}
+
+.bsasCard {
+    margin-top: 40px;
+}
+
+.cardBackground{
+    background-color: rgb(58, 58, 58);
+}
+
+form .row {
+    margin-bottom: 1em;
+}
+
+textarea {
+    font-size: large;
+}
+
+button {
+    background-color: #96c93e;
+    border-color: #96c93e;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 82px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer {
+    background: linear-gradient(to left, #1d4c66 0%, #1d3a4a 100%);
+}
+
+.link {
+    color:whitesmoke;
+    width: 14.28%; 
+    padding: 0 3em;
+}

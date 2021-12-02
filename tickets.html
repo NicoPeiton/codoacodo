@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_tickets.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <script src="scripts/script.js"></script>
+    <title>Precios</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html"><div class="title">Conf Bs As</div></a>
+        <div class="links">
+            <span class="grey">La conferencia</span>
+            <span class="grey">Las oradores</span>
+            <span class="grey">El lugar y la fecha</span>
+            <span>Conviértete en orador</span>
+            <span><a href="tickets.html" class="green">Comprar tickets</a></span>
+        </div>
+    </nav>
+    <main>
+        <div class="discount">
+            <div class="student">
+                <p class="bold">Estudiante</p> 
+                <p>Tiene un descuento</p>
+                <p class="bold">80%</p> 
+                <p class="grey">*presentar documentación</p>
+            </div>
+            <div class="trainee">
+                <p class="bold">Trainee</p> 
+                <p>Tiene un descuento</p>
+                <p class="bold">50%</p> 
+                <p class="grey">*presentar documentación</p>
+            </div>
+            <div class="junior">
+                <p class="bold">Junior</p> 
+                <p>Tiene un descuento</p>
+                <p class="bold">15%</p> 
+                <p class="grey">*presentar documentación</p>
+            </div> 
+        </div>
+        <div class="text">
+            <p>VENTA</p>
+            <h1>VALOR DE TICKET $200</h1>
+        </div>
+        <form>
+                <input type="text" placeholder="Nombre" class="formItem">
+                <input type="text" placeholder="Apellido" class="formItem">
+                <input type="text" placeholder="Correo" class="email">
+            <label>Cantidad</label>
+            <label>Categoria</label>
+            <input type="text" placeholder="cantidad" class="formItem" id="cantidad">
+            <select id="categoria">
+                <option value="Estudiante">Estudiante</option>
+                <option value="Trainee">Trainee</option>
+                <option value="Junior">Junior</option>
+            </select>
+            <div class="total" id="resumen">Total a Pagar: $</div>
+            <div class="button">Borrar</div>
+            <div class="button" onclick="resumir()">Resumen</div>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <span>Preguntas frecuentes</span>
+            <span>Contáctanos</span>
+            <span>Prensa</span>
+            <span>Conferencias</span>
+            <span>Términos y condiciones</span>
+            <span>Privacidad</span>
+            <span>Estudiantes</span>  
+        </div>
+    </footer>
+</body>
+</html>
